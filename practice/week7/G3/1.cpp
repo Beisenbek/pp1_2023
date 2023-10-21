@@ -13,6 +13,7 @@ int main(){
     int c = -1;
     int dr[] = {0, 1, 0, -1};
     int dc[] = {1, 0, -1, 0};
+    
     int idx = 0;
     
     for(int step_length = n; step_length >= 1; --step_length){
