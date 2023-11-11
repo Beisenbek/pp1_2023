@@ -11,10 +11,8 @@ string generate(string s, int level, int max_level){
 }
 
 int main(){
-
     int n;
     cin >> n;
     cout << generate("", 1, n);
-
     return 0;
 }
